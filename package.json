@@ -6,18 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev" :"nodemon index.js"
- 
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url":"git+https://github.com/deewan3696/smallchops.git"
+    "url": "git+https://github.com/deewan3696/smallchops.git"
   },
   "author": "deewan",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
     "express": "^4.18.1",
+    "mysql": "^2.18.1",
     "nodemon": "^2.0.20"
   }
 }
